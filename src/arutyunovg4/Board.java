@@ -9,5 +9,7 @@ public class Board {
         piece.coordinates = coordinates;
         pieces.put(coordinates, piece);
     }
+    public void setupDefaultPiecesPosition(){
 
+    }
 }

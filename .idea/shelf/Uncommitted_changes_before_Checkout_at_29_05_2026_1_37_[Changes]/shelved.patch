@@ -1,0 +1,40 @@
+Index: src/arutyunovg4/Piece.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package arutyunovg4;\r\n\r\nimport java.awt.*;\r\n\r\nabstract public class Piece {\r\n    public final Color color;\r\n    public Coordinates coordinates;\r\n\r\n    public Piece(Color color, Coordinates coordinates) {\r\n        this.color = color;\r\n        this.coordinates = coordinates;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/arutyunovg4/Piece.java b/src/arutyunovg4/Piece.java
+--- a/src/arutyunovg4/Piece.java	
++++ b/src/arutyunovg4/Piece.java	
+@@ -1,7 +1,5 @@
+ package arutyunovg4;
+ 
+-import java.awt.*;
+-
+ abstract public class Piece {
+     public final Color color;
+     public Coordinates coordinates;
+Index: src/arutyunovg4/Coordinates.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package arutyunovg4;\r\n\r\n\r\n\r\npublic record Coordinates(File file, Integer rank) {\r\n}\r\n
+===================================================================
+diff --git a/src/arutyunovg4/Coordinates.java b/src/arutyunovg4/Coordinates.java
+--- a/src/arutyunovg4/Coordinates.java	
++++ b/src/arutyunovg4/Coordinates.java	
+@@ -1,6 +1,14 @@
+ package arutyunovg4;
+ 
+ 
+-
+ public record Coordinates(File file, Integer rank) {
++
++
++    @Override
++    public String toString() {
++        return "Coordinates[" +
++                "file=" + file + ", " +
++                "rank=" + rank + ']';
++    }
++
+ }

@@ -1,8 +1,11 @@
 package arutyunovg4;
 
-import java.awt.*;
-
 abstract public class Piece {
-    Color color;
-    Coordinates coordinates;
+    public final Color color;
+    public Coordinates coordinates;
+
+    public Piece(Color color, Coordinates coordinates) {
+        this.color = color;
+        this.coordinates = coordinates;
+    }
 }
