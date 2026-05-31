@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7738fad6-894d-428c-935f-1c3cf8c4901f" name="Changes" comment="init commit" />
+    <list default="true" id="7738fad6-894d-428c-935f-1c3cf8c4901f" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arutyunovg4/BoardConsoleRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/CoordinatesShift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2026_1_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2026_1_37__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arutyunovg4/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arutyunovg4/pieces/Rook.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,25 +55,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;featureBranch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ZeGeorge/IdeaProjects/ChessProject/src/arutyunovg4/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "featureBranch",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ZeGeorge/IdeaProjects/ChessProject/src/arutyunovg4/Main.java",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="arutyunovg4.pieces" />
       <recent name="arutyunovg4" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arutyunovg4.Main" />
+      <module name="ChessProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arutyunovg4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="ChessProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +116,8 @@
       <workItem from="1779892841417" duration="186000" />
       <workItem from="1779893032876" duration="3187000" />
       <workItem from="1780002141940" duration="658000" />
+      <workItem from="1780071880486" duration="5736000" />
+      <workItem from="1780228366402" duration="13383000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -111,5 +159,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arutyunovg4/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

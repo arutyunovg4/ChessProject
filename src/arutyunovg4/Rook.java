@@ -1,7 +1,0 @@
-package arutyunovg4;
-
-public class Rook extends Piece{
-    public Rook(Color color, Coordinates coordinates) {
-        super(color, coordinates);
-    }
-}
